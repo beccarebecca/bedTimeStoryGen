@@ -1,10 +1,10 @@
 import numpy as np
 import tensorflow as tf
 from /gtext import unique_characters , charDict
-mod = tf.keras.models.load_model('/my_model.h5')
+mod = tf.keras.models.load_model('/mymodel.h5')
 # denormalize data and translate to characters
 
-# h5 file too large to upload on Github, so I included the training code I made in this project.
+# h5 file too large to upload on Github, so I included the training code I made in this project on colab research (textgen.py) .
 def num_decoder(nums):
   newNums = []
   nums = [int(n * 100) for n in nums]
