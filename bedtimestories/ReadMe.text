@@ -1,5 +1,5 @@
-This is project is for a assignment. This is a story generator website. You will need to change the paypal SB keyword of the paypal web address with your own special pin. the model is portions of the model is influenced by Keras text generator example.
-.env is not included in files.
+This is project is for a assignment. This is a bedtime story generator website. You will need to change the paypal SB keyword of the paypal web address with your own special pin. The parts of learning model is influenced/based on Tensorflow text generator example genText.py, and 
+storyGen.py The .settings.py is not included in files, because it stores the sensitive variables.
 
 CITATIONS
 
