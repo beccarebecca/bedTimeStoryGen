@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+ <link rel="stylesheet" href="static/font.css">
+</head>
+<body>
+
+  <h1>Unique BedTime Stories</h1>
+<main>
+<p>Hello {{yourname}}</p>
+<div class="container">
+<form action= "http://localhost:5000/story" method= "POST">
+
+
+  
+<p><b> What should the story begin with? A word? A sentance? No words? Let your imagination go free, and read!</p>
+  
+
+    <label for="psw-repeat"><b>Once Upon A Time</b></label>
+    <input type="textera" placeholder="Start Writing Here" name="story" required>
+    <input type='text' placeholder='500' name='numberST'>
+<label name = 'submit'> generate story</label>
+    <input type="submit" name="submit">
+  </div>
+Pay 5 for unlimited bedtime stories instead of once a week!
+  
+    
+</form> 
+
+<div>
+</main>
+<<p id= 'payP'>Want more fun bedtime stories a week? You can have unlimited bedtime stories for a only $5!</p>
+<script src="{{ url_for('static', filename='/login.js') }}" type="text/javascript"></script> 
+        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+<!--<p>Already have an account? <a href="#">Sign in</a>.</p>
+    <p>Forgot Account? <a href="#">forget password</a>.</p>
+    <p>Create Account? <a href="#">createAccount</a>.</p>
+    -->
+</body>
+
+
+
+
+
+

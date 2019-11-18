@@ -1,0 +1,4 @@
+Flask
+os
+tensorflow
+numpy

@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background: #0bc59d;
+    margin: 0% auto;
+    color:white;
+}
+main{
+    background:white;
+border: 10% solid yellow;
+ }
+#container{
+   height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+h1{
+    font-size:7vw;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input::placeholder{
+    opacity: 1;
+    color: rgb(248, 91, 144);
+    
+    text-align:center;
+}
+input[type = submit]{
+    opacity: 0;
+    border:none;
+}
+form{
+
+    display:grid;
+    justify-content: center;
+    grid-gap: 5px;
+
+}
+input{
+
+    
+    border: none;
+    
+    background: white;
+    font-size: 2em;
+
+}
+
+label[name = submit]{
+    
+    color: rgb(248, 91, 144);
+    
+    background: white;
+    font-size: 2em;
+
+}
+a{
+    background:white;
+    color: rgb(248, 91, 144);
+    text-decoration-line: none;
+}

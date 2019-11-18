@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+ <link rel="stylesheet" href="static/font.css">
+</head>
+<body>
+
+<h1>Unique BedTime Stories</h1>
+<main>
+<div id="container">
+{{results}}
+
+<div>
+</main>
+<p>create new story? <a href="/home.html">Home</a>.</p>
+<p id= 'payP'>Want more fun bedtime stories a week? You can have unlimited bedtime stories for a only $5!</p>
+<script src="{{ url_for('static', filename='/login.js') }}" type="text/javascript"></script> 
+        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+</body>
+</html>
