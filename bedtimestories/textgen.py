@@ -71,5 +71,5 @@ input_train = xtrain.shape
      return model
 
 
-
+nn()
 model.save("mymodel.h5")
